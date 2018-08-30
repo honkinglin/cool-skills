@@ -2,7 +2,7 @@
 
 [DEMO](https://hq-lin.github.io/cool-skills/input-effects/)
 
-* effect-1 利用兄弟选择器 `~` 将`focus`状态下的`focus-border`宽度从0变换到100%
+* effect-1 利用兄弟选择器 `~` 将`focus`状态下的`focus-border`宽度从0变换到100%
 ```css
 .effect-1~.focus-border {
     position: absolute;
@@ -67,7 +67,7 @@
 
 * effect-4 只需要将`focus-border`高度从下往上展开即可
 
-* effect-5, effect-6 只需要将`focus-border`宽度展开即可
+* effect-5, effect-6 只需要将`focus-border`宽度展开即可
 
 * effect-7 需要四个元素配合，于是利用需要两个`:before`两个`:after`，处理好定位，展开原理与`effect-2`一致
 ```css
@@ -112,7 +112,7 @@
 }
 ```
 
-* effect-10, effect-11, effect-12, effect-13 原理很简单，高度与父容器一致通过`width`来变换
+* effect-10, effect-11, effect-12, effect-13 原理很简单，高度与父容器一致通过`width`来变换
 
 * effect-14 将两个伪元素定位到角落后同时转换`width`和`height`
 ```css
@@ -129,6 +129,6 @@
 }
 ```
 
-* effect-15 原理和effect-14一致，只不过定位从正中间开始变换
+* effect-15 原理和effect-14一致，只不过定位从正中间开始变换
 
-* effect-16 --- effect-24 主要是配合了`label`标签向上位移，并用js判断输入框有值情况下`label`保持不动。其他变换方式大同小异
+* effect-16 --- effect-24 主要是配合了`label`标签向上位移，并用js判断输入框有值情况下`label`保持不动。其他变换方式大同小异
