@@ -2,7 +2,7 @@
 
 > 纯css实现的轮播
 
-[DEMO](https://hq-lin.github.io/cool-skills/input-effects/)
+[DEMO](https://hq-lin.github.io/cool-skills/css-banner/)
 
 
 通过`label`标签来绑定特定的`input`再通过动态checked属性配合`+`号兄弟选择器来处理展示的对应图片。
