@@ -7,7 +7,7 @@ html, body { background: #333; }
     width: 609px;
     height: 420px;
     display: block;
-    margin: 0 auto;
+    margin: 100px auto;
     position: relative;
 }
 

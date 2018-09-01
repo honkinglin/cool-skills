@@ -1,5 +1,11 @@
 ## 输入框特效
 
+![preview](./preview/demo1.webp)
+
+![preview](./preview/demo2.webp)
+
+![preview](./preview/demo3.webp)
+
 [DEMO](https://hq-lin.github.io/cool-skills/input-effects/)
 
 * effect-1 利用兄弟选择器 `~` 将`focus`状态下的`focus-border`宽度从0变换到100%
