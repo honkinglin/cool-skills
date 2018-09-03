@@ -1,0 +1,114 @@
+
+@keyframes rota {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@keyframes opa {
+    0% { opacity: 1; }
+    50%,100% { opacity: 0; }
+}
+
+.box {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    background: #fff;
+    margin: 10px;
+    display: inline-block;
+}
+
+.box::before {
+    content: '';
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background: inherit;
+    opacity: 1;
+    z-index: 300;
+    animation: opa 4s steps(1, end) infinite;
+}
+
+.box::after {
+    content: '';
+    width: 50%;
+    height: 100%;
+    transform-origin: 100% 50%;
+    position: absolute;
+    background: #08C;
+    border-radius: 0 100% 100% 0 / 0 50% 50% 0;
+    left: 50%;
+    opacity: 0;
+    z-index: 100;
+    animation: opa 4s steps(1, end) infinite reverse;
+}
+
+.pie {
+    width: 50%;
+    height: 100%;
+    transform-origin: 100% 50%;
+    position: absolute;
+    background: #08C;
+    border-radius: 100% 0 0 100% / 50% 0 0 50%;
+    z-index: 200;
+    animation: rota 4s linear infinite;
+}
+
+.box2::before, .box2::after, .box2 .pie {
+    animation-play-state: paused;
+}
+.box2 .pie {
+    animation-delay: -1s;
+}
+.box3::before, .box3::after, .box3 .pie {
+    animation-play-state: paused;
+}
+.box3 .pie {
+    animation-delay: -2s;
+}
+
+
+
+.bullet {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: linear-gradient(to right, #ECEFF1 50%, #4CAF50 50%);
+    overflow: hidden;
+    position: relative;
+  }
+
+  .bullet::before {
+    content: '';
+    display: block;
+    width: 50%;
+    height: 100%;
+    background: #ECEFF1;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform-origin: 0 50%;
+  }
+
+.bullet.-p7::before,
+.bullet.-p8::before,
+.bullet.-p9::before,
+.bullet.-p10::before,
+.bullet.-p11::before,
+.bullet.-p12::before {
+  background: #4CAF50;
+}
+
+.bullet.-p1::before { transform: rotate(30deg); }
+.bullet.-p2::before { transform: rotate(60deg); }
+.bullet.-p3::before { transform: rotate(90deg); }
+.bullet.-p4::before { transform: rotate(120deg); }
+.bullet.-p5::before { transform: rotate(150deg); }
+.bullet.-p6::before { display: none; }
+.bullet.-p7::before { transform: rotate(30deg); }
+.bullet.-p8::before { transform: rotate(60deg); }
+.bullet.-p9::before { transform: rotate(90deg); }
+.bullet.-p10::before { transform: rotate(120deg); }
+.bullet.-p11::before { transform: rotate(150deg); }
+.bullet.-p12::before { transform: rotate(180deg); }
