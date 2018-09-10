@@ -11,4 +11,4 @@ Analyze and collect the interesting CSS and JS special poses i see.
 | CSS Glitched Text | [CSS Glitched Text](https://hq-lin.github.io/cool-skills/css-glitched-text/) | [Principle](https://github.com/HQ-Lin/cool-skills/tree/master/css-glitched-text) |
 | CSS Typewriter | [CSS Typewriter](https://hq-lin.github.io/cool-skills/css-typewriter/) | [Principle](https://github.com/HQ-Lin/cool-skills/tree/master/css-typewriter) |
 | CSS Pie | [CSS Pie](https://hq-lin.github.io/cool-skills/css-pie/) | [Principle](https://github.com/HQ-Lin/cool-skills/tree/master/css-pie) |
-| Canvas Wave | [CSS Pie](https://hq-lin.github.io/cool-skills/canvas-wave/) | [Principle](https://github.com/HQ-Lin/cool-skills/tree/master/canvas-wave) |
+| Canvas Wave | [Canvas Wave](https://hq-lin.github.io/cool-skills/canvas-wave/) | [Principle](https://github.com/HQ-Lin/cool-skills/tree/master/canvas-wave) |
