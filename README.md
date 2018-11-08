@@ -6,9 +6,10 @@ Analyze and collect the interesting CSS and JS special poses i see.
 
 | Name        | Demo           | Principle  |
 | :-------------: |:-------------:| :-----:|
-| Input Effects | [Input Effects](https://hq-lin.github.io/cool-skills/input-effects/) | [Principle](https://github.com/HQ-Lin/cool-skills/tree/master/input-effects) |
-| CSS Banner | [CSS Banner](https://hq-lin.github.io/cool-skills/css-banner/) | [Principle](https://github.com/HQ-Lin/cool-skills/tree/master/css-banner) |
-| CSS Glitched Text | [CSS Glitched Text](https://hq-lin.github.io/cool-skills/css-glitched-text/) | [Principle](https://github.com/HQ-Lin/cool-skills/tree/master/css-glitched-text) |
-| CSS Typewriter | [CSS Typewriter](https://hq-lin.github.io/cool-skills/css-typewriter/) | [Principle](https://github.com/HQ-Lin/cool-skills/tree/master/css-typewriter) |
-| CSS Pie | [CSS Pie](https://hq-lin.github.io/cool-skills/css-pie/) | [Principle](https://github.com/HQ-Lin/cool-skills/tree/master/css-pie) |
-| Canvas Wave | [Canvas Wave](https://hq-lin.github.io/cool-skills/canvas-wave/) | [Principle](https://github.com/HQ-Lin/cool-skills/tree/master/canvas-wave) |
+| Input Effects | [demo](https://hq-lin.github.io/cool-skills/input-effects/) | [Principle](https://github.com/HQ-Lin/cool-skills/tree/master/input-effects) |
+| CSS Banner | [demo](https://hq-lin.github.io/cool-skills/css-banner/) | [Principle](https://github.com/HQ-Lin/cool-skills/tree/master/css-banner) |
+| CSS Glitched Text | [demo](https://hq-lin.github.io/cool-skills/css-glitched-text/) | [Principle](https://github.com/HQ-Lin/cool-skills/tree/master/css-glitched-text) |
+| CSS Typewriter | [demo](https://hq-lin.github.io/cool-skills/css-typewriter/) | [Principle](https://github.com/HQ-Lin/cool-skills/tree/master/css-typewriter) |
+| CSS Pie | [demo](https://hq-lin.github.io/cool-skills/css-pie/) | [Principle](https://github.com/HQ-Lin/cool-skills/tree/master/css-pie) |
+| Canvas Wave | [demo](https://hq-lin.github.io/cool-skills/canvas-wave/) | [Principle](https://github.com/HQ-Lin/cool-skills/tree/master/canvas-wave) |
+| CSS Border Stripe | [demo](https://hq-lin.github.io/cool-skills/css-border-stripe/) | [Principle](https://github.com/HQ-Lin/cool-skills/tree/master/css-border-stripe) |
